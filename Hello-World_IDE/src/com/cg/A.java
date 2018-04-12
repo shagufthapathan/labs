@@ -17,7 +17,7 @@ public class A {
 		this.message = message;
 	}
 
-	public String getGreeting() {
+	public String () {
 		return message;
 	}
 
@@ -34,7 +34,7 @@ public class A {
 class B extends A {
 
 	public B() {
-		super("test message");
+		super("text message");
 	}
 
 	public int m1(int a, int b) {

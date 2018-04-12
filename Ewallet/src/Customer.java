@@ -1,8 +1,8 @@
 
 public class Customer {
 	private String customername;
-	private Long mobilenumber;
-	Customer(String customername, Long mobilenumber)
+	private int mobilenumber;
+	Customer(String customername, int mobilenumber)
 	{
 	    this.customername = customername;
 	    this.mobilenumber = mobilenumber;
@@ -13,10 +13,10 @@ public class Customer {
 	public void setCustomername(String customername) {
 		this.customername = customername;
 	}
-	public Long getMobilenumber() {
+	public int getMobilenumber() {
 		return mobilenumber;
 	}
-	public void setMobilenumber(Long mobilenumber) {
+	public void setMobilenumber(int mobilenumber) {
 		this.mobilenumber = mobilenumber;
 	}
 	
